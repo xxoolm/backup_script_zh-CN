@@ -1,9 +1,8 @@
 name: 检测更新
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '*/30 * * * *'
+  watch:
+    types: [started]
 
 env: 
   TZ: Asia/Shanghai
