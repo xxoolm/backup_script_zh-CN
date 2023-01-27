@@ -22,8 +22,8 @@ do
 done
 
 echo "- 当前时间: $(date '+%Y-%m-%d %H:%M:%S')"
-#if [ "${A}" != "${B}" ]; then
-if [ 2 > 1 ]; then
+if [ "${A}" != "${B}" ]; then
+#if [ 2 > 1 ]; then
   echo "- 可更新构建"
   tgas_name="$(echo ${A} | awk -F '/' '{print $8}')"
   echo "- 新标签: ${tgas_name}"
