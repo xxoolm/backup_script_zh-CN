@@ -23,14 +23,17 @@ jobs:
         run: bash ./.github/check.sh
 
       - name: Install OpenCC
+        if: env.new_version == 'yes'
         run: |
           brew install OpenCC
           opencc --version
 
       - name: Run Script
+        if: env.new_version == 'yes'
         run: bash ./.github/Convert.sh
 
       - name: Release
+        if: env.new_version == 'yes'
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
