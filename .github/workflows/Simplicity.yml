@@ -21,7 +21,7 @@ jobs:
 
       - name: Install OpenCC
         run: |
-          apt install opencc
+          sudo apt install opencc
           opencc --version
 
       - name: Run Script
