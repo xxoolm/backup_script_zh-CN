@@ -75,5 +75,6 @@ magisk_modules() {
 magisk_modules
 
 sed -i "/| :----: | :----: | :----: |/a\\| $(date "+%Y/%m/%d %H:%M:%S") | ${tgas_name} | [${Backup_script}](https://github.com/xxoolm/backup_script_zh-CN/releases/download/${tgas_name}/${Backup_script}) |" "${home}/README.md"
-
+tgas_name="speed-backupV15.6.7"
+echo "ReleaseVersion=${tgas_name}" >> ${GITHUB_ENV} 
 [ "$?" == "0" ] && echo "(&) 输出完成！"
