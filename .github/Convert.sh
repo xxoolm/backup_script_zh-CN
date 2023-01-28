@@ -1,6 +1,6 @@
 home="."
 #home="${0%/*}"
-
+$1 = https://github.com/YAWAsau/backup_script/releases/download/V15.6.7/speed-backupV15.6.7.zip
 run() {
   echo "==================[ Run: $2 ]==================="
   [ ! -d "${home}/zip" ] && echo "- 创建${home}/zip目录" && mkdir -p ${home}/zip
