@@ -26,6 +26,7 @@
  ---- 
 |构建时间|版本|备份脚本|
 | :----: | :----: | :----: |
+| 2023/01/28 21:18:02 | V15.6.7 | [speed-backupV15.6.7.zip](https://github.com/xxoolm/backup_script_zh-CN/releases/download/V15.6.7/speed-backupV15.6.7.zip) |
 | 2023/01/28 21:14:20 | V15.6.7 | [speed-backupV15.6.7.zip](https://github.com/xxoolm/backup_script_zh-CN/releases/download/V15.6.7/speed-backupV15.6.7.zip) |
 | 2023/01/28 20:40:43 | V15.6.7 | [speed-backupV15.6.7.zip](https://github.com/xxoolm/backup_script_zh-CN/releases/download/V15.6.7/speed-backupV15.6.7.zip) |
 | 2023/01/28 20:36:03 | V15.6.7 | [speed-backupV15.6.7.zip](https://github.com/xxoolm/backup_script_zh-CN/releases/download/V15.6.7/speed-backupV15.6.7.zip) |
