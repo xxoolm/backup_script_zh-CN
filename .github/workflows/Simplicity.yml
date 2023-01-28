@@ -21,7 +21,7 @@ jobs:
 
       - name: Install OpenCC
         run: |
-          brew install OpenCC
+          apt install opencc
           opencc --version
 
       - name: Run Script
