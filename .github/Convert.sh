@@ -1,6 +1,6 @@
 home="."
 #home="${0%/*}"
-$1 = https://github.com/YAWAsau/backup_script/releases/download/V15.6.7/speed-backupV15.6.7.zip
+#$1 = https://github.com/YAWAsau/backup_script/releases/download/V15.6.7/speed-backupV15.6.7.zip
 run() {
   echo "==================[ Run: $2 ]==================="
   [ ! -d "${home}/zip" ] && echo "- 创建${home}/zip目录" && mkdir -p ${home}/zip
@@ -8,7 +8,7 @@ run() {
   mkdir -p ${home}/Download
 
   echo "- 将$2文件下载至${home}/Download目录"
-  curl -o "${home}/Download/$2" "$1" -sL
+  curl -o "${home}/Download/$2" "https://github.com/YAWAsau/backup_script/releases/download/V15.6.7/speed-backupV15.6.7.zip" -sL
 
   echo "- 查看${home}/Download/$2文件大小"
   ls -lh ${home}/Download/$2
